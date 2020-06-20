@@ -1,0 +1,42 @@
+---------https://api.deezer.com/playlist/93489551/tracks
+----------(      target       )(seccion peticion )(estructura peticion)
+
+{
+"id": 859579962,
+"readable": true,
+"title": "Tattoo",
+"title_short": "Tattoo",
+"title_version": "",
+"link": "https:\/\/www.deezer.com\/track\/859579962",
+"duration": 202,
+"rank": 964880,
+"explicit_lyrics": false,
+"explicit_content_lyrics": 0,
+"explicit_content_cover": 2,
+"preview": "https:\/\/cdns-preview-6.dzcdn.net\/stream\/c-6c8aba16dd4a2c28bc5628eb53a48b4f-5.mp3",
+"time_add": 1586199638,
+"artist": {
+"id": 11289472,
+"name": "Rauw Alejandro",
+"link": "https:\/\/www.deezer.com\/artist\/11289472",
+"picture": "https:\/\/api.deezer.com\/artist\/11289472\/image",
+"picture_small": "https:\/\/cdns-images.dzcdn.net\/images\/artist\/00bd2ff2a0180daa211a89cf5434537a\/56x56-000000-80-0-0.jpg",
+"picture_medium": "https:\/\/cdns-images.dzcdn.net\/images\/artist\/00bd2ff2a0180daa211a89cf5434537a\/250x250-000000-80-0-0.jpg",
+"picture_big": "https:\/\/cdns-images.dzcdn.net\/images\/artist\/00bd2ff2a0180daa211a89cf5434537a\/500x500-000000-80-0-0.jpg",
+"picture_xl": "https:\/\/cdns-images.dzcdn.net\/images\/artist\/00bd2ff2a0180daa211a89cf5434537a\/1000x1000-000000-80-0-0.jpg",
+"tracklist": "https:\/\/api.deezer.com\/artist\/11289472\/top?limit=50",
+"type": "artist"
+},
+"album": {
+"id": 128337322,
+"title": "Tattoo",
+"cover": "https:\/\/api.deezer.com\/album\/128337322\/image",
+"cover_small": "https:\/\/cdns-images.dzcdn.net\/images\/cover\/7a3ff432b3b5aaf92a2a35edc5da71ac\/56x56-000000-80-0-0.jpg",
+"cover_medium": "https:\/\/cdns-images.dzcdn.net\/images\/cover\/7a3ff432b3b5aaf92a2a35edc5da71ac\/250x250-000000-80-0-0.jpg",
+"cover_big": "https:\/\/cdns-images.dzcdn.net\/images\/cover\/7a3ff432b3b5aaf92a2a35edc5da71ac\/500x500-000000-80-0-0.jpg",
+"cover_xl": "https:\/\/cdns-images.dzcdn.net\/images\/cover\/7a3ff432b3b5aaf92a2a35edc5da71ac\/1000x1000-000000-80-0-0.jpg",
+"tracklist": "https:\/\/api.deezer.com\/album\/128337322\/tracks",
+"type": "album"
+},
+"type": "track"
+}

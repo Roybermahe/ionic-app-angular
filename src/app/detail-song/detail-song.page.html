@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{Song.title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen] ="true">
+ 
+  <ion-list>
+    <ion-list-header>
+      <ion-grid>
+        <ion-row class="ion-align-items-center">
+          <ion-col>            
+          </ion-col>
+          <ion-col>
+            <img  src="{{Song.artist.picture_medium}}" style="border-radius: 50%;">
+            <div class="ion-text-center">
+              <h3>{{Song.artist.name}}</h3>
+              <p>{{Song.album.title}}</p>
+              <p>Canciones del album</p>
+              <audio controls autoplay>
+                <source src="{{Song.preview}}" type="audio/mpeg">  
+              </audio>
+            </div>
+          </ion-col>
+          <ion-col>            
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-list-header>
+  </ion-list>
+</ion-content>

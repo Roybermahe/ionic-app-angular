@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      DEEZER
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-list-header>
+      Lista de canciones
+    </ion-list-header>
+
+    <ion-item *ngFor="let item of lista" (click)="viewSong(item.id)">
+      <ion-avatar slot="start">
+        <img src="{{item.artist.picture_small}}">
+      </ion-avatar>
+      <ion-label>
+        <h2>{{item.title}}</h2>
+        <p>duration: {{durationToMin(item.duration)}}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
